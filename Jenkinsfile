@@ -6,7 +6,7 @@ pipeline
     {
        steps
        { 
-         echo 'Get the git source ???'
+         echo 'Get the git source ???...'
          sleep(2)         
        } 
     }
