@@ -6,7 +6,7 @@ pipeline
     {
        steps
        { 
-         echo 'Building...'
+         echo 'Get the git source ???'
          sleep(2)         
        } 
     }
@@ -16,9 +16,8 @@ pipeline
       steps
       {
         echo 'Unit Tests...'
-        sleep(2)
-        //sh 'pip install --upgrade --user tox'
-        //sh 'tox -r'
+        sh 'pip install --upgrade --user tox'
+        sh 'tox -r'
       }
     }
   
