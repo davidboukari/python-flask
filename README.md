@@ -1,6 +1,6 @@
 # python-flask
 
-## To run 
+## To run the app
 ```
 # Create the venv
 python3 -m venv ../venv 
