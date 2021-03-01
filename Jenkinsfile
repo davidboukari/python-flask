@@ -16,7 +16,7 @@ pipeline
       steps
       {
         echo 'Unit Tests...'
-        #sh 'pip install --upgrade --user tox'
+        //sh 'pip install --upgrade --user tox'
         sh 'tox -r'
       }
     }
